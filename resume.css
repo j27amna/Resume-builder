@@ -1,0 +1,151 @@
+*{
+    font-family: sans-serif;
+    background-color: aliceblue;
+    color: #204e9d;
+}
+
+h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.resumeForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aliceblue;
+}
+
+fieldset{
+    width: 100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    padding: 25px;
+    border: 3px solid;
+    margin-bottom: 11px;
+    background-color: aliceblue;
+    
+}
+
+legend h3 {
+    text-shadow: #204e9d;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    text-decoration-thickness: 2px;
+    margin: 11px;
+    font-size: 1.3rem;
+}
+
+input, textarea {
+    width: 100%;
+    border: 1px solid;
+    border-color: cadetblue;
+    border-radius: 5px;
+    font-size: small;
+    background-color: #ffffff;
+}
+
+label {
+    font-size: medium;
+    font-weight: 600;
+}
+
+button {
+    color: #204e9d;
+    border: 1pt solid;
+    border-radius: 5px;
+    border-color: #204e9d;
+    font-size: medium;
+}
+
+.createResumebtn input {
+    margin: 20px 20px;
+    margin-bottom: 30px;
+    width: 40%;
+    position: absolute;
+    left: 30.7%;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 0px;
+    background-color: rgb(39, 117, 219);
+    color: #ffffff;
+    font-size: large;
+    font-weight: 700;
+    border: 0;
+    border-radius: 50px;
+    justify-content: center;
+}
+
+.createResumebtn input:hover {
+    padding: 20px 0px;
+}
+
+.space p {
+    color: aliceblue;
+}
+
+.resumeOutput {
+    width: 60%;
+    margin-left: 300px;
+    padding: 20px;
+    border: 3px solid #204e9d;
+}
+
+.resumeOutput h1 {
+    justify-content: center;
+    align-items: center;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+}
+
+.personalInfo {
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    justify-content: center;
+    align-items: center;
+}
+
+.summarize {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.summarize p {
+    font-style: italic;
+}
+
+.dates p {
+    font-size: smaller;
+}
+
+.date p {
+    font-size: smaller;
+}
+
+.resumeOutput h4 {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+

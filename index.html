@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo"><a href="#"><h1>Resume Builder</h1></a></div>
+            <div class="toggle_btn"><i class="fa-solid fa-bars"></i></div>
+            <div class="dropdown_menu">
+            <ul class="links">
+                <li><a href="#">Home</a></li>
+                <li><a href="about">About Us</a></li>
+                <li><a href="contact">Contact</a></li>
+            </ul>
+            </div>
+        </div>
+    </header>
+
+    <script>
+        const toggleBtn = document.querySelector('.toggle_btn');
+        const toggleBtnIcon = document.querySelector('.toggle_btn');
+        const dropdownMenu = document.querySelector('.dropdown_menu');
+
+        toggleBtn.onclick = function () {
+            dropdownMenu.classList.toggle('open')
+            const isOpen = dropdownMenu.classList.contains('open')
+        }
+    </script>
+
+    <section class="hero">
+        <div class="head">
+            <h1>Build a Professional Resume in Minutes</h1>
+        </div>
+        <div class="para">
+            <p>Land your dream job with a standout resume. Our easy-to-use resume builder helps you craft professional <br> documents that impress recruiters. Customize our sleek template to highlight your <br> skills and experiences. Start your journey to career success today!</p>
+        </div>
+        <div class="btn">
+            <button><a href="resume.html">GENERATE  RESUME</a></button>
+        </div>
+    </section>
+</body>
+</html>

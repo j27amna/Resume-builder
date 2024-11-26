@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-image: url(/bg.png);
+    background-size: cover;
+    background-position: center;
+}
+ 
+li {
+    list-style: none;
+}
+
+.navbar {
+    background-color: antiquewhite;
+    width: 100%;
+    height: 70px;
+    padding: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}   
+
+a {
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+header {
+    position: relative;
+    padding: 0;
+}
+
+.navbar .logo a {
+    margin-top: 2px;
+    margin-bottom: 4px;
+    color: rgb(64, 138, 234);
+    font-size: large;
+}
+
+.navbar .toggle_btn i {
+    color: rgb(39, 117, 219);
+    font-size: 2rem;
+    font-weight: bold;
+    margin-right: auto;
+}
+
+.dropdown_menu {
+    position: absolute;
+    right: 2rem;
+    top: 70px;
+    height: 0;
+    width: 200px;
+    background: rgb(70, 138, 227);;
+    backdrop-filter: blur(15px);
+    justify-items: center;
+    font-weight: bold;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.dropdown_menu.open {
+    height: 200px;
+}
+
+.dropdown_menu li {
+    padding: 1.4rem;
+    font-size: large;
+    display: flex;
+}
+
+.links a {
+    color: antiquewhite;
+}
+
+section.hero {
+    height: calc(100vh-60px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10cap;
+}
+
+.head h1 {
+    color: antiquewhite;
+    font-size: 3.7rem;
+    font-weight: 500;
+    padding: 25px;
+    margin-top: 40px;
+}
+
+.para p {
+    color: azure;
+    margin-bottom: 40px;
+    font-size: 1.1rem;
+    font-weight: 400;
+    padding: 20px;
+}
+
+.btn button {
+    background-color: rgb(39, 117, 219);
+    font-family: sans-serif;
+    font-size: x-large;
+    font-weight: 700;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0cap;
+    box-shadow: 3px;
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+
+.btn button a {
+    color: azure;
+}
+
+.btn button:hover {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
